@@ -1,19 +1,14 @@
-<!doctype html>
-<html class="light" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy | Qoondeeye</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Work+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-      rel="stylesheet"
-    />
-    <script id="tailwind-config">
+<!DOCTYPE html>
+
+<html class="light" lang="so">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Siyaasadda Asturnaanta | Qoondeeye</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
         theme: {
@@ -43,7 +38,7 @@
         },
       };
     </script>
-    <style>
+<style>
       .material-symbols-outlined {
         font-variation-settings:
           "FILL" 0,
@@ -60,506 +55,717 @@
       h4 {
         font-family: Manrope, sans-serif;
       }
-    </style>
-  </head>
-  <body class="bg-surface text-on-surface min-h-screen">
-    <main class="px-6 py-8 md:py-10">
-      <article class="max-w-[800px] mx-auto">
-        <header class="mb-6 pb-6 border-b border-outline-variant">
-          <p class="text-lg font-bold text-primary tracking-tight mb-4">
+    
+      .language-switcher {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        display: flex;
+        justify-content: center;
+        padding: 12px 16px;
+        background: rgba(248, 249, 251, 0.96);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid #c0c7cd;
+      }
+      .language-switcher-inner {
+        display: inline-flex;
+        gap: 4px;
+        padding: 4px;
+        border-radius: 9999px;
+        background: #e7e8ea;
+      }
+      .language-button {
+        border: 0;
+        border-radius: 9999px;
+        padding: 8px 14px;
+        font-family: "Work Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #40484c;
+        background: transparent;
+        cursor: pointer;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
+      .language-button[aria-pressed="true"] {
+        background: #003345;
+        color: #ffffff;
+      }
+      .language-button:focus-visible {
+        outline: 3px solid rgba(20, 105, 109, 0.35);
+        outline-offset: 2px;
+      }
+      [data-language-panel][hidden] {
+        display: none !important;
+      }
+</style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen">
+
+<div class="language-switcher"><div aria-label="Language / Luuqad" class="language-switcher-inner" role="group"><button aria-pressed="true" class="language-button" data-language="so" type="button">Af-Soomaali</button><button aria-pressed="false" class="language-button" data-language="en" type="button">English</button></div></div><main class="px-6 py-8 md:py-10" data-language-panel="so" lang="so"><article class="max-w-[800px] mx-auto">
+<header class="mb-6 pb-6 border-b border-outline-variant">
+<p class="text-lg font-bold text-primary tracking-tight mb-4">
             Qoondeeye
           </p>
-          <h1
-            class="text-4xl md:text-5xl font-bold text-primary tracking-tight mb-3"
-          >
+<h1 class="text-4xl md:text-5xl font-bold text-primary tracking-tight mb-3">
+            Siyaasadda Asturnaanta
+          </h1>
+<div class="flex flex-wrap items-center gap-3 text-sm text-outline font-medium">
+<span class="bg-[#e7e8ea] px-3 py-1 rounded-full text-xs uppercase tracking-widest text-on-surface-variant">Nooca 1.2</span>
+<span>Markii ugu dambeysay la cusboonaysiiyay: 27 Agoosto 2026</span>
+</div>
+</header>
+<nav aria-label="Qaybaha boggan" class="bg-[#f2f4f6] rounded-xl p-5 md:p-6 mb-8">
+<h2 class="text-base font-semibold text-primary mb-3 flex items-center gap-2">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">toc</span>
+            Qaybaha boggan
+          </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-1 text-sm">
+<a class="text-on-surface-variant hover:text-primary py-1" href="#collection">1. Xogta aan arurinno</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#sms-import">2. Soo dejinta SMS-ka</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#usage">3. Sida aan xogta u isticmaalno</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#storage">4. Kaydinta &amp; isku-xiridda xogta</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#sharing">5. Wadaagista xogta &amp; amniga</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#rights">6. Xuquuqdaada &amp; doorashooyinkaaga</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#retention">7. Muddada aan xogta hayno</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#changes">8. Isbeddellada lagu sameeyo siyaasaddan</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#children">9. Asturnaanta carruurta</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#contact">10. Nala soo xiriir</a>
+</div>
+</nav>
+<div class="space-y-8">
+<section id="collection">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              1. Xogta aan arurinno
+            </h2>
+<div class="space-y-4 leading-relaxed text-on-surface-variant">
+<p>
+                Waxaan haynaa oo keliya xogta Qoondeeye u baahan yahay si uu kaaga caawiyo la socodka lacagahaaga.
+              </p>
+<div class="bg-white rounded-xl p-5 md:p-6 space-y-5 border border-outline-variant/40">
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Xogta akoonkaaga
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Magacaaga, cinwaanka iimaylka, iyo xogta xaqiijinta ee uu maamulo adeegga aad ku gasho Qoondeeye.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Xogta maaliyadeed
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Lacagaha aad gacanta ku darto, lacagaha Qoondeeye ka diiwaangeliyo SMS-ka, qaybaha, qoraallada, miisaaniyadaha, haraaga, iyo warbixinnada.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Xogta moobeyl-kaaga
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Nooca app-ka Qoondeeye ee aad isticmaalayso, nooca moobeyl-kaaga, iyo nooca nidaamka hawlgalka.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Ogeysiisyada app-ka (Push Notifications)
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Haddii aad oggolaato ogeysiisyada, Qoondeeye wuxuu kuu soo diri karaa xusuusinno, sida marka rukumad (subscription) waqtigeedu soo dhowaado, iyo ogeysiisyo kale oo app-ka la xiriira. Moobeyl-kaaga wuxuu helaa aqoonsi gaar ah oo ogeysiisyada laguugu soo diro (push token), waxaana dirista ogeysiisyada loo adeegsan karaa Apple, Google, iyo/ama Expo. Ogeysiisyada uma isticmaalno xayeysiis.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Sawirro, kamarad &amp; faylal
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Haddii aad doorato inaad dhigato sawir profile ama aad sawir ku lifaaqdo, Qoondeeye wuxuu geli karaa kaamiraddaada ama sawirrada ku jira moobeyl-kaaga oo keliya marka aad adigu sidaas doorato. Sawirrada aad geliso waxaa lagu kaydin karaa kaydka internet-ka (cloud), sida Supabase, si aad uga heli karto qalabka kale ee aad Qoondeeye ku isticmaasho.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
+                    Qufulka app-ka ee ikhtiyaariga ah (biometric / PIN)
+                  </h3>
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Haddii aad shiddo qufulka app-ka, Face ID, faraha, ama PIN-ka moobeyl-kaaga waxaa xaqiijiya nidaamka hawlgalka ee moobeyl-kaaga. Annagu ma helno mana ku kaydinno server-keena xogta wejigaaga, farahaaga, ama xog kale oo biometric ah.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-secondary-fixed/25 p-5 md:p-8 rounded-xl" id="sms-import">
+<div class="flex items-start gap-4 md:gap-5">
+<div aria-hidden="true" class="p-3 bg-secondary-fixed rounded-full text-on-secondary-fixed-variant shrink-0">
+<span class="material-symbols-outlined text-2xl md:text-3xl">sms</span>
+</div>
+<div class="min-w-0">
+<h2 class="text-2xl md:text-3xl font-bold text-on-secondary-fixed-variant mb-3">
+                  2. Soo dejinta SMS-ka (Android)
+                </h2>
+<div class="space-y-3 leading-relaxed text-on-secondary-fixed-variant">
+<p>
+                    Qoondeeye wuxuu SMS-ka u isticmaalaa inuu si toos ah u diiwaangeliyo lacagaha ku jira ogeysiisyada ay soo diraan adeegyada lacagaha mobilka, bangiyada, iyo shirkadaha isgaarsiinta ee app-ku aqoonsado.
+                  </p>
+<div class="space-y-4 mt-4">
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
+                        Oggolaanshaha SMS-ka
+                      </h3>
+<p class="text-base opacity-95 mt-1">
+                        Si Qoondeeye lacagaha uga diiwaangeliyo SMS-ka si toos ah, inta lagu jiro dejinta app-ka wuxuu Android ka codsadaa oggolaanshaha
+                        <strong>RECEIVE_SMS</strong> si uu u ogaado SMS-yada lacagaha la xiriira marka ay soo galaan. Ma codsanno oggolaansho aan ku akhrino SMS-yadii hore ee telefoonkaaga ku jiray, mana akhrinno, la soconno, ama kaydinno fariimahaaga gaarka ah.
+                      </p>
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
+                        SMS-yada Qoondeeye isticmaalo
+                      </h3>
+<p class="text-base opacity-95 mt-1">
+                        Qoondeeye wuxuu isticmaalaa oo keliya SMS-yada otomaatiga ah ee uu u aqoonsado ogeysiis lacageed, sida ogeysiisyada lacagaha mobilka ama bangiyada. Fariimaha gaarka ah, koodhadhka xaqiijinta, iyo SMS-yada kale ee aan lacagaha la xiriirin app-ku wuu iska indhatiraa. Qoondeeye ma akhriyo mana baaro SMS-yadii hore ee ku jiray telefoonkaaga.
+                      </p>
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
+                        Sida Qoondeeye u isticmaalo xogta SMS-ka
+                      </h3>
+<p class="text-base opacity-95 mt-1">
+                        Marka Qoondeeye aqoonsado SMS lacageed, wuxuu ka soo saaraa oo keliya faahfaahinta muhiimka ah, sida cadadka, haddii ay tahay dakhli, kharash, wareejin, ku-shubasho ama nooc kale oo app-ku aqoonsado, waqtiga, haraaga, lambarka tixraaca, iyo xogta diraha ama qaataha haddii ay fariinta ku jirto.
+                      </p>
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
+                        Adiga ayaa maamula
+                      </h3>
+<p class="text-base opacity-95 mt-1">
+                        Waxaad adeeggan maamuli kartaa wakhti kasta. Waxaad soo dejinta SMS-ka ka damin kartaa setting-ka Qoondeeye, ama waxaad oggolaanshaha SMS-ka ka joojin kartaa dejimaha telefoonkaaga. Haddii aad damiso, Qoondeeye si toos ah ugama diiwaangelin doono lacagaha cusub ee SMS-ka ku yimaada.
+                      </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="usage">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              3. Sida aan xogta u isticmaalno
+            </h2>
+<div class="space-y-3 leading-relaxed text-on-surface-variant">
+<p>Waxaan xogtaada u isticmaalnaa:</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-5 bg-[#f2f4f6] rounded-lg">
+<h3 class="font-bold text-primary mb-2">Si adeeggu u shaqeeyo</h3>
+<p class="text-sm">
+                    Si aan kuu siino la socodka lacagaha iyo warbixinnada, isla markaana xogtaadu uga wada muuqato qalabka aad Qoondeeye ku isticmaasho.
+                  </p>
+</div>
+<div class="p-5 bg-[#f2f4f6] rounded-lg">
+<h3 class="font-bold text-primary mb-2">
+                    Hagaajinta app-ka &amp; caawimaadda
+                  </h3>
+<p class="text-sm">
+                    Si aan u hagaajinno shaqada iyo xasilloonida app-ka, uguna caawinno marka aad nala soo xiriirto.
+                  </p>
+</div>
+</div>
+</div>
+</section>
+<section id="storage">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              4. Kaydinta &amp; isku-xiridda xogta
+            </h2>
+<div class="bg-[#f2f4f6] p-5 md:p-6 rounded-xl leading-relaxed text-on-surface-variant">
+<p>
+                Xogtaada waxaa lagu kaydin karaa moobeyl-kaaga, waxaana sidoo kale lagu kaydin karaa adeegyada internet-ka sida Supabase si kayd loogu sameeyo oo aad uga heli karto qalab kale. Sawirrada rasiidhada iyo sawirka profile-ka ee aad doorato inaad geliso waxaa sidoo kale lagu kaydin karaa kaydka internet-ka (cloud) isla ujeeddadaas. Qoondeeye ma kaydiyo sanduuqaaga SMS-ka oo dhan. Marka xogta laga soo saaray SMS-ka ay sugayso in internet-ka lagu kaydiyo, waxa la hayaa oo keliya faahfaahinta lacagta; qoraalka SMS-ka oo dhan lama kaydiyo.
+              </p>
+</div>
+</section>
+<section id="sharing">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              5. Wadaagista xogta &amp; amniga
+            </h2>
+<div class="space-y-4 leading-relaxed text-on-surface-variant">
+<p>
+                Ma iibinno xogtaada gaarka ah. Waxaan xog kooban la wadaagi karnaa oo keliya adeeg-bixiyeyaasha Qoondeeye u baahan yahay si uu u shaqeeyo, sida:
+              </p>
+<div class="space-y-4 border-l-4 border-outline-variant pl-6">
+<div>
+<h3 class="font-bold text-on-surface">Adeegyada farsamada</h3>
+<p class="text-base">
+                    Adeegyada lagu kaydiyo xogta iyo faylasha internet-ka, isku-xiridda xogta, iyo adeegyada gelitaanka ama xaqiijinta aqoonsiga, sida Google Sign-In marka la isticmaalo.
+                  </p>
+</div>
+<div>
+<h3 class="font-bold text-on-surface">Hagaajinta & la socodka ciladaha</h3>
+<p class="text-base">
+                    Haddii adeegyadaas la shido, warbixinnada ciladaha iyo xogta ku saabsan sida app-ka loo isticmaalo waxaa loo adeegsan karaa hagaajinta Qoondeeye. Waxaan qaadnaa tallaabooyin macquul ah si aan u ilaalinno xogtaada.
+                  </p>
+</div>
+</div>
+</div>
+</section>
+<section id="rights">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              6. Xuquuqdaada &amp; doorashooyinkaaga
+            </h2>
+<div class="space-y-3 leading-relaxed text-on-surface-variant">
+<p>Waxaad samayn kartaa:</p>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">sms_off</span>
+<span>Dami soo dejinta SMS-ka wakhti kasta</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">notifications_off</span>
+<span>Dami ogeysiisyada push-ka ee dejimaha telefoonkaaga</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">photo_camera</span>
+<span>Ka jooji oggolaanshaha kaamiradda ama sawirrada dejimaha telefoonkaaga</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">edit_note</span>
+<span>Wax ka beddel ama tirtir diiwaannada lacagaha</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-error shrink-0">delete_forever</span>
+<span>Codso in akoonkaaga la tirtiro</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">cancel</span>
+<span>Jooji isticmaalka app-ka wakhti kasta</span>
+</li>
+</ul>
+</div>
+</section>
+<section id="retention">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              7. Muddada aan xogta hayno
+            </h2>
+<p class="leading-relaxed text-on-surface-variant">
+              Waxaan haynaa xogtaada inta akoonkaagu shaqaynayo ama inta ay lagama maarmaan u tahay bixinta adeegga. Haddii aad rabto in akoonkaaga iyo xogtiisa la tirtiro, iimayl u dir
+              <a class="text-primary font-semibold underline" href="mailto:scriptsquad77@gmail.com">scriptsquad77@gmail.com</a>.
+            </p>
+</section>
+<section id="changes">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              8. Isbeddellada lagu sameeyo siyaasaddan
+            </h2>
+<p class="leading-relaxed text-on-surface-variant">
+              Waxaan mararka qaarkood cusboonaysiin karnaa siyaasaddan. Marka aan wax ka beddelno, taariikhda “Markii ugu dambeysay la cusboonaysiiyay” ee kore ayaan cusboonaysiin doonaa.
+            </p>
+</section>
+<section id="children">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              9. Asturnaanta carruurta
+            </h2>
+<p class="leading-relaxed text-on-surface-variant">
+              Qoondeeye looguma talagelin carruurta ka yar 13 sano. Haddii sharciga meesha aad ku nooshahay uu qabo da' ka sarreysa 13 sano, da'daas ayaa la raacayaa.
+            </p>
+</section>
+<section id="contact">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+              10. Nala soo xiriir
+            </h2>
+<p class="leading-relaxed text-on-surface-variant">
+              Wixii su'aalo ah ee la xiriira asturnaanta ama codsi ku saabsan xogtaada, nagala soo xiriir:
+              <a class="text-primary font-semibold underline" href="mailto:scriptsquad77@gmail.com">scriptsquad77@gmail.com</a>
+</p>
+</section>
+<footer class="pt-6 border-t border-outline-variant text-sm text-outline text-center">
+            © 2026 Qoondeeye. Dhammaan xuquuqdu way xafidan tahay.
+          </footer>
+</div>
+</article></main><main class="px-6 py-8 md:py-10" data-language-panel="en" hidden="" lang="en"><article class="max-w-[800px] mx-auto">
+<header class="mb-6 pb-6 border-b border-outline-variant">
+<p class="text-lg font-bold text-primary tracking-tight mb-4">
+            Qoondeeye
+          </p>
+<h1 class="text-4xl md:text-5xl font-bold text-primary tracking-tight mb-3">
             Privacy Policy
           </h1>
-          <div
-            class="flex flex-wrap items-center gap-3 text-sm text-outline font-medium"
-          >
-            <span
-              class="bg-[#e7e8ea] px-3 py-1 rounded-full text-xs uppercase tracking-widest text-on-surface-variant"
-              >Version 1.2</span
-            >
-            <span>Last updated: May 31, 2026</span>
-          </div>
-        </header>
-
-        <nav
-          class="bg-[#f2f4f6] rounded-xl p-5 md:p-6 mb-8"
-          aria-label="On this page"
-        >
-          <h2
-            class="text-base font-semibold text-primary mb-3 flex items-center gap-2"
-          >
-            <span class="material-symbols-outlined text-xl" aria-hidden="true"
-              >toc</span
-            >
+<div class="flex flex-wrap items-center gap-3 text-sm text-outline font-medium">
+<span class="bg-[#e7e8ea] px-3 py-1 rounded-full text-xs uppercase tracking-widest text-on-surface-variant">Version 1.2</span>
+<span>Last updated: August 27, 2026</span>
+</div>
+</header>
+<nav aria-label="On this page" class="bg-[#f2f4f6] rounded-xl p-5 md:p-6 mb-8">
+<h2 class="text-base font-semibold text-primary mb-3 flex items-center gap-2">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">toc</span>
             On this page
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-1 text-sm">
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#collection"
-              >1. Information we collect</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#sms-import"
-              >2. Optional SMS import</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#usage"
-              >3. How we use information</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#storage"
-              >4. Storage &amp; sync</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#sharing"
-              >5. Data sharing &amp; security</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#rights"
-              >6. Your rights &amp; choices</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#retention"
-              >7. Data retention</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#changes"
-              >8. Changes to this policy</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#children"
-              >9. Children's privacy</a
-            >
-            <a
-              class="text-on-surface-variant hover:text-primary py-1"
-              href="#contact"
-              >10. Contact</a
-            >
-          </div>
-        </nav>
-
-        <div class="space-y-8">
-          <section id="collection">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-1 text-sm">
+<a class="text-on-surface-variant hover:text-primary py-1" href="#collection">1. Information we collect</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#sms-import">2. SMS import</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#usage">3. How we use information</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#storage">4. Storage &amp; sync</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#sharing">5. Data sharing &amp; security</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#rights">6. Your rights &amp; choices</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#retention">7. Data retention</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#changes">8. Changes to this policy</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#children">9. Children's privacy</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#contact">10. Contact</a>
+</div>
+</nav>
+<div class="space-y-8">
+<section id="collection">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               1. Information we collect
             </h2>
-            <div class="space-y-4 leading-relaxed text-on-surface-variant">
-              <p>
+<div class="space-y-4 leading-relaxed text-on-surface-variant">
+<p>
                 We collect only the information needed to provide finance
                 tracking features.
               </p>
-              <div
-                class="bg-white rounded-xl p-5 md:p-6 space-y-5 border border-outline-variant/40"
-              >
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+<div class="bg-white rounded-xl p-5 md:p-6 space-y-5 border border-outline-variant/40">
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Account information
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >Name, email address, and authentication data processed
-                        by our sign-in provider</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Name, email address, and authentication data processed
+                        by our sign-in provider</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Financial information
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >Transactions you add manually, imported transaction
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Transactions you add manually, imported transaction
                         alerts, categories, notes, budgets, balances, and
-                        reports</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+                        reports</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Device / technical information
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >App version, device type, operating system
-                        version</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>App version, device type, operating system
+                        version</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Push notifications
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >If you allow notifications, we use them for reminders
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>If you allow notifications, we use them for reminders
                         (for example subscription due dates) and in-app alerts.
                         Your device receives a push token; delivery may use
                         Apple, Google, and/or Expo infrastructure. We do not use
-                        notifications for advertising.</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+                        notifications for advertising.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Photos, camera &amp; files
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >If you choose to set a profile photo or attach an image, the app may access
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>If you choose to set a profile photo or attach an image, the app may access
 your camera or photo library only when you take that action. Images you attach may be
                         uploaded to our cloud storage (for example Supabase) so
-                        they can sync across your devices.</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 class="text-lg font-semibold text-primary mb-2">
+                        they can sync across your devices.</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-primary mb-2">
                     Optional app lock (biometric / PIN)
                   </h3>
-                  <ul class="space-y-2">
-                    <li class="flex items-start gap-3">
-                      <span
-                        class="material-symbols-outlined text-secondary shrink-0 mt-0.5"
-                        aria-hidden="true"
-                        >check_circle</span
-                      >
-                      <span
-                        >If you enable device lock, Face ID, fingerprint, or
+<ul class="space-y-2">
+<li class="flex items-start gap-3">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>If you enable device lock, Face ID, fingerprint, or
                         device PIN is handled by your operating system to unlock
                         local access. We do not receive or store your biometric
-                        data on our servers.</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section
-            class="bg-secondary-fixed/25 p-5 md:p-8 rounded-xl"
-            id="sms-import"
-          >
-            <div class="flex items-start gap-4 md:gap-5">
-              <div
-                class="p-3 bg-secondary-fixed rounded-full text-on-secondary-fixed-variant shrink-0"
-                aria-hidden="true"
-              >
-                <span class="material-symbols-outlined text-2xl md:text-3xl"
-                  >sms</span
-                >
-              </div>
-              <div class="min-w-0">
-                <h2
-                  class="text-2xl md:text-3xl font-bold text-on-secondary-fixed-variant mb-3"
-                >
-                  2. Optional SMS import (Android)
+                        data on our servers.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-secondary-fixed/25 p-5 md:p-8 rounded-xl" id="sms-import">
+<div class="flex items-start gap-4 md:gap-5">
+<div aria-hidden="true" class="p-3 bg-secondary-fixed rounded-full text-on-secondary-fixed-variant shrink-0">
+<span class="material-symbols-outlined text-2xl md:text-3xl">sms</span>
+</div>
+<div class="min-w-0">
+<h2 class="text-2xl md:text-3xl font-bold text-on-secondary-fixed-variant mb-3">
+                  2. SMS import (Android)
                 </h2>
-                <div
-                  class="space-y-3 leading-relaxed text-on-secondary-fixed-variant"
-                >
-                  <p>
+<div class="space-y-3 leading-relaxed text-on-secondary-fixed-variant">
+<p>
                     Qoondeeye offers an optional SMS auto-import feature to help record
 transaction alerts sent by supported local mobile money services,
 banking institutions, and telecommunication providers.
                   </p>
-                  <div class="space-y-4 mt-4">
-                    <div>
-                      <h3 class="font-bold text-on-secondary-fixed-variant">
+<div class="space-y-4 mt-4">
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
                         Permissions
                       </h3>
-                      <p class="text-base opacity-95 mt-1">
-                        If you enable SMS import, the app requests the Android
+<p class="text-base opacity-95 mt-1">
+                        To capture transactions automatically, Qoondeeye requests the Android
                         <strong>RECEIVE_SMS</strong> permission so it can detect incoming
                         financial notifications. We do not request access to read your 
                         existing SMS inbox or history, and we do not monitor, read, or 
                         store personal conversations.
                       </p>
-                    </div>
-                    <div>
-                      <h3 class="font-bold text-on-secondary-fixed-variant">
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
                         What messages are processed
                       </h3>
-                      <p class="text-base opacity-95 mt-1">
+<p class="text-base opacity-95 mt-1">
                         The app processes only recognized, automated financial transaction receipts 
                         and mobile wallet notifications. All other personal messages, text verification 
                         codes, and unrelated SMS communications are completely ignored. Qoondeeye 
                         does not read or scan your historical SMS archive.
                       </p>
-                    </div>
-                    <div>
-                      <h3 class="font-bold text-on-secondary-fixed-variant">
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
                         How SMS data is used
                       </h3>
-                      <p class="text-base opacity-95 mt-1">
+<p class="text-base opacity-95 mt-1">
                         transaction details—such as transaction amounts, transaction type
 (income, expense, transfer, top-up, or other supported transaction types),
 timestamps, balances, reference IDs, and masked sender/recipient identifiers
 where available.
                       </p>
-                    </div>
-                    <div>
-                      <h3 class="font-bold text-on-secondary-fixed-variant">
+</div>
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
                         Your control
                       </h3>
-                      <p class="text-base opacity-95 mt-1">
+<p class="text-base opacity-95 mt-1">
                         SMS import is entirely voluntary and remains disabled by default. You can 
                         revoke this permission or toggle the feature off within the application 
                         settings at any time.
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="usage">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="usage">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               3. How we use information
             </h2>
-            <div class="space-y-3 leading-relaxed text-on-surface-variant">
-              <p>We use your data to:</p>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div class="p-5 bg-[#f2f4f6] rounded-lg">
-                  <h3 class="font-bold text-primary mb-2">Service</h3>
-                  <p class="text-sm">
+<div class="space-y-3 leading-relaxed text-on-surface-variant">
+<p>We use your data to:</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-5 bg-[#f2f4f6] rounded-lg">
+<h3 class="font-bold text-primary mb-2">Service</h3>
+<p class="text-sm">
                     Run finance tracking, reports, and sync across devices.
                   </p>
-                </div>
-                <div class="p-5 bg-[#f2f4f6] rounded-lg">
-                  <h3 class="font-bold text-primary mb-2">
+</div>
+<div class="p-5 bg-[#f2f4f6] rounded-lg">
+<h3 class="font-bold text-primary mb-2">
                     Improvement &amp; support
                   </h3>
-                  <p class="text-sm">
+<p class="text-sm">
                     Improve reliability and help you when you contact us.
                   </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="storage">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</div>
+</div>
+</div>
+</section>
+<section id="storage">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               4. Storage &amp; sync
             </h2>
-            <div
-              class="bg-[#f2f4f6] p-5 md:p-6 rounded-xl leading-relaxed text-on-surface-variant"
-            >
-              <p>
+<div class="bg-[#f2f4f6] p-5 md:p-6 rounded-xl leading-relaxed text-on-surface-variant">
+<p>
                 Your records may be stored on your device and synced with
                 backend services (such as Supabase) for backup and multi-device
                 access. Optional receipt images and profile photos may be stored
                 in associated cloud file storage for the same purpose. We do not upload your full SMS inbox, and queued SMS imports store parsed
 transaction fields only, not your full SMS message body.
               </p>
-            </div>
-          </section>
-
-          <section id="sharing">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</div>
+</section>
+<section id="sharing">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               5. Data sharing &amp; security
             </h2>
-            <div class="space-y-4 leading-relaxed text-on-surface-variant">
-              <p>
+<div class="space-y-4 leading-relaxed text-on-surface-variant">
+<p>
                 We do not sell your personal information. We may share limited
                 data with providers needed to run the app, for example:
               </p>
-              <div class="space-y-4 border-l-4 border-outline-variant pl-6">
-                <div>
-                  <h3 class="font-bold text-on-surface">Infrastructure</h3>
-                  <p class="text-base">
+<div class="space-y-4 border-l-4 border-outline-variant pl-6">
+<div>
+<h3 class="font-bold text-on-surface">Infrastructure</h3>
+<p class="text-base">
                     Cloud database, file storage (for optional images), sync,
                     and authentication providers (for example Google Sign-In
                     where offered).
                   </p>
-                </div>
-                <div>
-                  <h3 class="font-bold text-on-surface">Maintenance</h3>
-                  <p class="text-base">
+</div>
+<div>
+<h3 class="font-bold text-on-surface">Maintenance</h3>
+<p class="text-base">
                     Crash reporting or analytics, if enabled. We use reasonable
                     measures to protect your data.
                   </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="rights">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</div>
+</div>
+</div>
+</section>
+<section id="rights">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               6. Your rights &amp; choices
             </h2>
-            <div class="space-y-3 leading-relaxed text-on-surface-variant">
-              <p>You can:</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-primary shrink-0"
-                    aria-hidden="true"
-                    >sms_off</span
-                  >
-                  <span>Disable SMS import anytime</span>
-                </li>
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-primary shrink-0"
-                    aria-hidden="true"
-                    >notifications_off</span
-                  >
-                  <span>Turn off push notifications in system settings</span>
-                </li>
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-primary shrink-0"
-                    aria-hidden="true"
-                    >photo_camera</span
-                  >
-                  <span>Revoke camera or photo access in system settings</span>
-                </li>
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-primary shrink-0"
-                    aria-hidden="true"
-                    >edit_note</span
-                  >
-                  <span>Edit or delete transactions</span>
-                </li>
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-error shrink-0"
-                    aria-hidden="true"
-                    >delete_forever</span
-                  >
-                  <span>Request account deletion</span>
-                </li>
-                <li
-                  class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm"
-                >
-                  <span
-                    class="material-symbols-outlined text-primary shrink-0"
-                    aria-hidden="true"
-                    >cancel</span
-                  >
-                  <span>Stop using the app anytime</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <section id="retention">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+<div class="space-y-3 leading-relaxed text-on-surface-variant">
+<p>You can:</p>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">sms_off</span>
+<span>Disable SMS import anytime</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">notifications_off</span>
+<span>Turn off push notifications in system settings</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">photo_camera</span>
+<span>Revoke camera or photo access in system settings</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">edit_note</span>
+<span>Edit or delete transactions</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-error shrink-0">delete_forever</span>
+<span>Request account deletion</span>
+</li>
+<li class="p-4 bg-[#e7e8ea] rounded-lg flex gap-3 items-center text-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-primary shrink-0">cancel</span>
+<span>Stop using the app anytime</span>
+</li>
+</ul>
+</div>
+</section>
+<section id="retention">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               7. Data retention
             </h2>
-            <p class="leading-relaxed text-on-surface-variant">
+<p class="leading-relaxed text-on-surface-variant">
               We keep your data while your account is active or as needed to
               provide the service. To request deletion, email
-              <a
-                class="text-primary font-semibold underline"
-                href="mailto:scriptsquad77@gmail.com"
-                >scriptsquad77@gmail.com</a
-              >.
+              <a class="text-primary font-semibold underline" href="mailto:scriptsquad77@gmail.com">scriptsquad77@gmail.com</a>.
             </p>
-          </section>
-
-          <section id="changes">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</section>
+<section id="changes">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               8. Changes to this policy
             </h2>
-            <p class="leading-relaxed text-on-surface-variant">
+<p class="leading-relaxed text-on-surface-variant">
               We may update this policy; the "Last updated" date at the top will
               change when we do.
             </p>
-          </section>
-
-          <section id="children">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</section>
+<section id="children">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               9. Children's privacy
             </h2>
-            <p class="leading-relaxed text-on-surface-variant">
+<p class="leading-relaxed text-on-surface-variant">
               Qoondeeye is not intended for children under 13 (or the minimum
               age required where you live).
             </p>
-          </section>
-
-          <section id="contact">
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+</section>
+<section id="contact">
+<h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
               10. Contact
             </h2>
-            <p class="leading-relaxed text-on-surface-variant">
+<p class="leading-relaxed text-on-surface-variant">
               For privacy questions or data requests:
-              <a
-                class="text-primary font-semibold underline"
-                href="mailto:scriptsquad77@gmail.com"
-                >scriptsquad77@gmail.com</a
-              >
-            </p>
-          </section>
-
-          <footer
-            class="pt-6 border-t border-outline-variant text-sm text-outline text-center"
-          >
+              <a class="text-primary font-semibold underline" href="mailto:scriptsquad77@gmail.com">scriptsquad77@gmail.com</a>
+</p>
+</section>
+<footer class="pt-6 border-t border-outline-variant text-sm text-outline text-center">
             © 2026 Qoondeeye. All rights reserved.
           </footer>
-        </div>
-      </article>
-    </main>
-  </body>
+</div>
+</article></main><script>
+      (() => {
+        const buttons = Array.from(document.querySelectorAll(".language-button"));
+        const panels = Array.from(document.querySelectorAll("[data-language-panel]"));
+
+        function setLanguage(language) {
+          panels.forEach((panel) => {
+            panel.hidden = panel.dataset.languagePanel !== language;
+          });
+
+          buttons.forEach((button) => {
+            button.setAttribute(
+              "aria-pressed",
+              button.dataset.language === language ? "true" : "false"
+            );
+          });
+
+          document.documentElement.lang = language;
+          document.title =
+            language === "so"
+              ? "Siyaasadda Asturnaanta | Qoondeeye"
+              : "Privacy Policy | Qoondeeye";
+
+          try {
+            localStorage.setItem("qoondeeye-privacy-language", language);
+          } catch (_) {}
+        }
+
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => setLanguage(button.dataset.language));
+        });
+
+        let savedLanguage = null;
+        try {
+          savedLanguage = localStorage.getItem("qoondeeye-privacy-language");
+        } catch (_) {}
+
+        if (savedLanguage === "en" || savedLanguage === "so") {
+          setLanguage(savedLanguage);
+        } else {
+          setLanguage("so");
+        }
+      })();
+</script></body>
 </html>
