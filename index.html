@@ -218,7 +218,7 @@
 </div>
 <div class="min-w-0">
 <h2 class="text-2xl md:text-3xl font-bold text-on-secondary-fixed-variant mb-3">
-                  2. Soo dejinta SMS-ka (Android)
+                  2. Soo dejinta SMS-ka oo ikhtiyaari ah (Android &amp; iOS)
                 </h2>
 <div class="space-y-3 leading-relaxed text-on-secondary-fixed-variant">
 <p>
@@ -232,6 +232,15 @@
 <p class="text-base opacity-95 mt-1">
                         Si Qoondeeye lacagaha uga diiwaangeliyo SMS-ka si toos ah, inta lagu jiro dejinta app-ka wuxuu Android ka codsadaa oggolaanshaha
                         <strong>RECEIVE_SMS</strong> si uu u ogaado SMS-yada lacagaha la xiriira marka ay soo galaan. Ma codsanno oggolaansho aan ku akhrino SMS-yadii hore ee telefoonkaaga ku jiray, mana akhrinno, la soconno, ama kaydinno fariimahaaga gaarka ah.
+                      </p>
+</div>
+
+<div>
+<h3 class="font-bold text-on-secondary-fixed-variant">
+                        iOS (Shortcuts)
+                      </h3>
+<p class="text-base opacity-95 mt-1">
+                        iOS-ku ma dhageysan karo SMS-ka background-ka sida Android-ka. Markaad dejiso Shortcut-ka ikhtiyaariga ah, fariimaha taageersan ee ka yimaada <strong>192</strong> waxaa loo diri karaa Qoondeeye iyada oo la isticmaalayo App Intent (“Process Financial SMS”) xitaa marka telefoonku xiran yahay. Adiga ayaa go’aamiya in Shortcut-ku uu shaqeeyo.
                       </p>
 </div>
 <div>
@@ -293,7 +302,7 @@
             </h2>
 <div class="bg-[#f2f4f6] p-5 md:p-6 rounded-xl leading-relaxed text-on-surface-variant">
 <p>
-                Xogtaada waxaa lagu kaydin karaa moobeyl-kaaga, waxaana sidoo kale lagu kaydin karaa adeegyada internet-ka sida Supabase si kayd loogu sameeyo oo aad uga heli karto qalab kale. Sawirrada rasiidhada iyo sawirka profile-ka ee aad doorato inaad geliso waxaa sidoo kale lagu kaydin karaa kaydka internet-ka (cloud) isla ujeeddadaas. Qoondeeye ma kaydiyo sanduuqaaga SMS-ka oo dhan. Marka xogta laga soo saaray SMS-ka ay sugayso in internet-ka lagu kaydiyo, waxa la hayaa oo keliya faahfaahinta lacagta; qoraalka SMS-ka oo dhan lama kaydiyo.
+                Xogtaada waxaa lagu kaydin karaa moobeyl-kaaga, waxaana sidoo kale lagu kaydin karaa adeegyada internet-ka sida Supabase si kayd loogu sameeyo oo aad uga heli karto qalab kale. Sawirrada rasiidhada iyo sawirka profile-ka ee aad doorato inaad geliso waxaa sidoo kale lagu kaydin karaa kaydka internet-ka (cloud) isla ujeeddadaas. Qoondeeye ma kaydiyo sanduuqaaga SMS-ka oo dhan. Marka xogta laga soo saaray SMS-ka ay sugayso in internet-ka lagu kaydiyo, waxa la hayaa oo keliya faahfaahinta lacagta; qoraalka SMS-ka oo dhan lama kaydiyo. Android-ka, falanqayn isticmaal oo ikhtiyaari ah (PostHog) ayaa la isticmaali karaa; nuxurka SMS-ka, lacagaha, hadhaaga, iyo telefoonada laguma diro falanqaynta, waxaana ka dammi kartaa Settings. iOS-ka falanqaynta waa danbeeysa marka la oggolaado.
               </p>
 </div>
 </section>
@@ -637,7 +646,7 @@ where available.
                 backend services (such as Supabase) for backup and multi-device
                 access. Optional receipt images and profile photos may be stored
                 in associated cloud file storage for the same purpose. We do not upload your full SMS inbox, and queued SMS imports store parsed
-transaction fields only, not your full SMS message body.
+transaction fields only, not your full SMS message body. On Android, optional privacy-safe product analytics (PostHog) may collect usage events; SMS content, amounts, balances, and phone numbers are not sent to analytics, and you can opt out in Settings. Product analytics is off on iOS for the initial App Store release.
               </p>
 </div>
 </section>
